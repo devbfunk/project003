@@ -4,7 +4,7 @@ import Link from 'next/link';
 import React from 'react';
 import { HiXMark } from 'react-icons/hi2';
 
-export default function MobileMenu({ open, setOpen }) {
+export default function MobileMenu({ open, setOpen }: any) {
     const handleToggle = () => {
         setOpen((prev: any) => !prev);
     };

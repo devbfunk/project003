@@ -1,7 +1,5 @@
-import { Button } from '@/components/ui/button'
 import { ArrowLeftIcon } from '@radix-ui/react-icons'
 import Link from 'next/link'
-import React from 'react'
 
 export default function NotFound() {
     return (

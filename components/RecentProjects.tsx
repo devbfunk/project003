@@ -1,6 +1,5 @@
 import { getProjects } from '@/lib/projects'
 import Link from 'next/link'
-import Posts from './Posts'
 import Projects from './Projects'
 
 export default async function RecentProjects() {
