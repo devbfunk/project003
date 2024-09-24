@@ -1,9 +1,5 @@
-import Posts from '@/components/Posts';
-import PostsWithSearch from '@/components/posts-with-search';
 import Projects from '@/components/Projects';
-import { getPosts } from '@/lib/posts';
 import { getProjects } from '@/lib/projects';
-import React from 'react'
 
 export default async function ProjectsPage() {
     const projects = await getProjects();

@@ -1,23 +1,21 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "./globals.css";
-import { ThemeProvider } from "@/components/providers";
-import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import { ThemeProvider } from "@/components/providers";
 import { cn } from "@/lib/utils";
-import { Playfair_Display, Inter } from 'next/font/google';
-import Intro from "@/components/Intro";
+import type { Metadata } from "next";
+import { Inter, Playfair_Display } from 'next/font/google';
+import "./globals.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+// const geistSans = localFont({
+//   src: "./fonts/GeistVF.woff",
+//   variable: "--font-geist-sans",
+//   weight: "100 900",
+// });
+// const geistMono = localFont({
+//   src: "./fonts/GeistMonoVF.woff",
+//   variable: "--font-geist-mono",
+//   weight: "100 900",
+// });
 
 const playfair = Playfair_Display({
   subsets: ['latin'],

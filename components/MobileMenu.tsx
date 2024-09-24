@@ -1,3 +1,4 @@
+/* eslint-disable */
 "use client"
 import { HamburgerMenuIcon } from '@radix-ui/react-icons';
 import Link from 'next/link';

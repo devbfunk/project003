@@ -1,5 +1,4 @@
 import MDXContent from '@/components/mdx-content';
-import { getprojects, getPostsBySlug } from '@/lib/posts';
 import { getProjects, getProjectsBySlug } from '@/lib/projects';
 import { formatDate } from '@/lib/utils';
 import { ArrowLeftIcon } from 'lucide-react';

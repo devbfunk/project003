@@ -2,7 +2,6 @@ import ContactForm from "@/components/ContactForm";
 import Intro from "@/components/Intro";
 import RecentPosts from "@/components/RecentPosts";
 import RecentProjects from "@/components/RecentProjects";
-import { MDXRemote } from 'next-mdx-remote/rsc'
 
 export default function Home() {
 
